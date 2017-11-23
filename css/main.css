@@ -1,1 +1,46 @@
 /* realiza tus estilos aqui */
+main {
+  border: 1px solid black;
+  width: 90%;
+  height: 90%;
+}
+
+.card{
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+  margin: 1% 4%;
+  display: inline-block;
+  background-image: url("../assets/image/logo-lab.png");
+  background-size: cover;
+}
+
+span{
+  background: white;
+  position: relative;
+  font-size: 30px;
+  top: 167px;
+}
+
+.selfie:hover{
+  background-image: url("../assets/image/imagen1.jpg");
+}
+
+.tacos:hover{
+  background-image: url("../assets/image/imagen2.jpg");
+}
+
+.doggi:hover{
+  background-image: url("../assets/image/imagen3.jpg");
+}
+.juski:hover{
+  background-image: url("../assets/image/imagen4.jpg");
+}
+
+.viernes:hover{
+  background-image: url("../assets/image/imagen5.jpg");
+}
+
+.card:hover{
+  cursor: pointer;
+}
